@@ -1,1 +1,71 @@
+@font-face {
+    font-family: Miyoshi;
+    src: url(RecursosHumanos/summs/Miyoshi-Demo.ttf);
+}
 
+@font-face {
+    font-family: M;
+    src: url(RecursosHumanos/summs/BillionDreams_PERSONAL.ttf);
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+    background: url(RecursosHumanos/summs/wallpaperflare.com_wallpaper.jpg)
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 2px 2px rgb(0, 0, 0);
+    text-align: center;
+}
+
+.titulo-header {
+    width: 100px;
+    padding-left: 30px;
+    font-family: M;
+    color: rgb(56, 52, 52);
+}
+
+.titulo-header:hover {
+    color: rgb(255, 255, 255);
+    transition: 2s;
+}
+
+#main-header {
+    padding: 2px;
+    position: absolute;
+    display: flex;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(rgb(34, 34, 34),black);
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: rgb(133, 133, 133);
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img{
+    height: 80px;
+    width: 80px;
+}
