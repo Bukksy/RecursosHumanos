@@ -1,11 +1,11 @@
 @font-face {
     font-family: Miyoshi;
-    src: url(/summs/Miyoshi-Demo.ttf);
+    src: url(summs/Miyoshi-Demo.ttf);
 }
 
 @font-face {
     font-family: M;
-    src: url(/summs/BillionDreams_PERSONAL.ttf);
+    src: url(summs/BillionDreams_PERSONAL.ttf);
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	line-height: 1.5em;
-    background: url(/summs/wallpaperflare.com_wallpaper.jpg)
+    background: url(summs/wallpaperflare.com_wallpaper.jpg)
 }
 
 h1 {
