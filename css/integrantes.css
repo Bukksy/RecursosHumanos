@@ -1,12 +1,15 @@
+
 @font-face {
     font-family: Miyoshi;
-    src: url(/summs/Miyoshi-Demo.ttf);
+    src: url(/RecursosHumanos-main/summs/Miyoshi-Demo.ttf);
 }
+
 
 @font-face {
     font-family: M;
-    src: url(/summs/BillionDreams_PERSONAL.ttf);
+    src: url(/RecursosHumanos-main/summs/BillionDreams_PERSONAL.ttf);
 }
+
 
 body {
 	margin: 0 auto;
@@ -14,7 +17,7 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	line-height: 1.5em;
-    background: url(/summs/wallpaperflare.com_wallpaper.jpg)
+    background: url(/RecursosHumanos-main/summs/wallpaperflare.com_wallpaper.jpg)
 }
 
 h1 {
@@ -35,9 +38,16 @@ h1 {
     transition: 2s;
 }
 
+
+.header{
+    width: 100%;
+    height: 100%;
+}
+
 #main-header {
+    
     padding: 2px;
-    position: absolute;
+    position: relative;
     display: flex;
     top: 0;
     width: 100%;
@@ -45,6 +55,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
+
 
 a {
     color: white;
@@ -59,17 +70,105 @@ nav a {
 
 nav a:hover {
     color: rgb(133, 133, 133);
-}
 
-.logo {
-    display: flex;
-}
 
-.logo img{
-    height: 80px;
-    width: 80px;
 }
 
 .Integrantes {
+
     color: gray;
+}
+
+
+#contenedor{
+
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 4%;
+    padding-top: 10%;
+    gap: 3%;
+    
+
+    
+  
+}
+   
+
+
+.imagen {
+
+    width: 200px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 1px 1px 1000px white;
+    border-radius: 20px;
+   
+   
+
+}
+
+
+.imagen {
+
+    width: 200px;
+    position: relative;
+ 
+
+}
+img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+   
+   
+   
+
+}
+.titulos{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.titulos:hover{
+    opacity: 1;
+}
+.titulos h1 {
+    font-size: 25px;
+    color:white;
+    margin-bottom: 15px;
+}
+.titulos p {
+    font-size: 25px;
+    color:white;
+    margin-bottom: 15px;
+
+}
+
+.imagen:hover{
+    
+        transform: scale(1.3);
+        transition: 1.5s;
+        box-shadow: 1px 1px 1000px #FF3333;
+       
+}
+
+
+#hola:hover{
+    box-shadow: 1px 1px 1000px blue
+}
+
+#byebye:hover{
+    box-shadow: 1px 1px 1000px #9C33FF
 }
